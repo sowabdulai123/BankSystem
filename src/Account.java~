@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+
+
+
+public class Account {
+    private int accountNumber;
+    private double balance;
+    private String accountHolderName;
+
+    public Account( accountNumber, balance, accountHolderName) {
+        this.accountNumber = accountNumber;
+        this.balance = balance;
+        this.accountHolderName = accountHolderName;
+    }
+
+
+}
